@@ -1,0 +1,7 @@
+public class MoviesController {
+
+    @GetMapping(value = "/about")
+    public String generalInformation() {
+        return "Movies encyclopedia at your fingertips.";
+    }
+}

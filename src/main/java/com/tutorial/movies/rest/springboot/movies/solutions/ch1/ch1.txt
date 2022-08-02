@@ -1,0 +1,7 @@
+public class MoviesController {
+
+    @GetMapping(value = "/info")
+    public String generalInformation() {
+        return "Everything Movies - Welcome to Spring boot Gradle Demo for everything movies informtion.";
+    }
+}

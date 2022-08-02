@@ -1,0 +1,27 @@
+
+# List of all the movies https://editorial.rottentomatoes.com/guide/star-wars-movies-in-order/
+
+1. STAR WARS: EPISODE I -- THE PHANTOM MENACE
+   (1999)
+   Starring: Liam Neeson, Ewan McGregor, Natalie Portman, Jake Lloyd
+   Directed By: George Lucas
+
+2. STAR WARS: EPISODE II -- ATTACK OF THE CLONES
+   (2002)
+   Starring: Ewan McGregor, Natalie Portman, Hayden Christensen, Christopher Lee
+   Directed By: George Lucas
+
+3. STAR WARS: EPISODE III -- REVENGE OF THE SITH
+   (2005)
+   Starring: Ewan McGregor, Natalie Portman, Hayden Christensen, Ian McDiarmid
+   Directed By: George Lucas
+
+4. SOLO: A STAR WARS STORY
+   (2018)
+   Starring: Alden Ehrenreich, Emilia Clarke, Donald Glover, Woody Harrelson
+   Directed By: Ron Howard
+
+5. ROGUE ONE: A STAR WARS STORY
+   (2016)
+   Starring: Felicity Jones, Diego Luna, Alan Tudyk, Donnie Yen
+   Directed By: Gareth Edwards

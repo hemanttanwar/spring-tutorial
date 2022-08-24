@@ -5,7 +5,6 @@ import com.tutorial.movies.rest.springboot.movies.MoviesController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.test.context.ActiveProfiles;
@@ -13,10 +12,7 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-import java.util.Optional;
 
 @WebMvcTest(controllers = MovieControllerTest.class)
 @ActiveProfiles("test")
@@ -24,8 +20,8 @@ import java.util.Optional;
 public class MovieControllerTest {
 
     private MockMvc mockMvc;
-    private MoviesController moviesController;
-    private MovieService movieService;
+    private final MoviesController moviesController;
+    private final MovieService movieService;
     public MovieControllerTest() {
         movieService = Mockito.mock(MovieService.class);
         moviesController = new MoviesController(movieService);
